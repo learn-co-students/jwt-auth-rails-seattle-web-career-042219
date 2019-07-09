@@ -17,7 +17,7 @@ class ApplicationController < ActionController::API
         # JWT.decode => [{ "user_id"=>"2" }, { "alg"=>"HS256" }]
       rescue JWT::DecodeError
         nil
-      end
+      end 
     end
   end
 
